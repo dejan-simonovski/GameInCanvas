@@ -1,0 +1,106 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: 200px;
+}
+
+#bubble{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    background-color: steelblue;
+    border-radius: 15px;
+}
+
+.button:hover{
+    color: lightgreen;
+    background-color: red;
+}
+
+#flex-canvas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+canvas {
+    border: white 1px solid;
+}
+#score {
+    position: relative;
+    left: 10px;
+    justify-content: center;
+    align-content: center;
+
+    margin-right: 20px;
+    font-size: 50px;
+    color: white;
+
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 300px;
+    height: 500px;
+    border: solid white 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.invader {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.shooter {
+    background-color: green;
+}
+
+.laser {
+    background-color: orange;
+}
+
+.boom {
+    background-color: red;
+}
